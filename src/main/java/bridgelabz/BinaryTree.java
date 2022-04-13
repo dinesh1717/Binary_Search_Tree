@@ -45,4 +45,10 @@ public class BinaryTree<K extends Comparable<K>> {
             printRec(root.right);
         }
     }
+
+    @Override
+    public String toString() {
+        return "BinaryTree [root=" + root + ", getSize()=" + getSize() + ", getClass()=" + getClass() + ", hashCode()="
+                + hashCode() + ", toString()=" + super.toString() + "]";
+    }
 }
