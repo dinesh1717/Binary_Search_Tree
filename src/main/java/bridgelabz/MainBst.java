@@ -17,9 +17,12 @@ public class MainBst {
         tree.add(65);
         tree.add(63);
         tree.add(67);
-        tree.print();
 
+        tree.levelPrint();
         int size = tree.getSize();
         System.out.println(size);
+        tree.search(30);
+        tree.print();
+
     }
 }
